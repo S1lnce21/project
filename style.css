@@ -12,19 +12,19 @@
 
 header {
     width: 100%;
-    height: 100vh;
+    height: 100px;
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
-    background-color: rgb(124, 123, 123);
+    background-color: grey;
 }
 
 #menu {
     display: flex;
     width: 100%;
     height: 100px;
-    background-color: pink;
+    background-color: purple;
     align-items: flex-end;
 }
 
@@ -46,7 +46,7 @@ ul li a {
     font-family: 'IBM Plex Mono';
     font-weight: 700;
     font-size: 20px;
-    color: black;
+    color: white;
     padding: 0 13px;
 }
 
@@ -55,12 +55,12 @@ ul li a {
     font-family: 'IBM Plex Mono';
     font-weight: 700;
     font-size: 20px;
-    color: black;
+    color: white;
     padding: 0 13px;
 }
 
 ul li a:hover {
-    color: white;
+    color: black;
 }
 
 #login:hover {
@@ -84,6 +84,7 @@ ul li a:hover {
 
 .active {
     position: relative;
-    left: 600px;
-    
+    left: 600px;   
 }
+
+
