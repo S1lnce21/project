@@ -44,6 +44,7 @@ ul li a {
     text-decoration: none;
     transition: 0.2s;
     font-family: 'IBM Plex Mono';
+    font-weight: 700;
     font-size: 20px;
     color: black;
     padding: 0 13px;
@@ -52,6 +53,7 @@ ul li a {
 #login {
     transition: 0.2s;
     font-family: 'IBM Plex Mono';
+    font-weight: 700;
     font-size: 20px;
     color: black;
     padding: 0 13px;
@@ -63,13 +65,6 @@ ul li a:hover {
 
 #login:hover {
     color: white;
-}
-
-#logo {
-    color: white;
-    font-size: 20px;
-    letter-spacing: 5px;
-    font-family: 'IBM Plex Mono';
 }
 
 #reg {
@@ -88,6 +83,7 @@ ul li a:hover {
 }
 
 .active {
-    display: flex;
+    position: relative;
+    left: 600px;
     
 }
